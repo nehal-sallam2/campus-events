@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#862e9c"/>
+  <path d="M30 40Q200 100 370 40" stroke="#fff" stroke-width="3" fill="none"/>
+  <path d="M70 52l22 6-14 28zM140 69l22 4-10 30zM210 74l22 0-8 30zM280 69l22-4-2 32zM335 55l22-8 4 30z" fill="#f4c542"/>
+  <text x="30" y="215" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#fff">Welcome Week</text>
+  <text x="30" y="250" font-family="Arial,sans-serif" font-size="20" fill="#ebc9f5">20 Sep 2026</text>
+</svg>

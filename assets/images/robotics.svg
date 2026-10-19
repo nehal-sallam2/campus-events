@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#2b8a3e"/>
+  <rect x="255" y="60" width="90" height="75" rx="10" fill="#fff"/>
+  <circle cx="281" cy="92" r="9" fill="#2b8a3e"/>
+  <circle cx="319" cy="92" r="9" fill="#2b8a3e"/>
+  <rect x="275" y="114" width="50" height="6" rx="3" fill="#2b8a3e"/>
+  <path d="M300 60v-18" stroke="#fff" stroke-width="5"/>
+  <circle cx="300" cy="38" r="7" fill="#f4c542"/>
+  <text x="30" y="215" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#fff">Robotics Demo Day</text>
+  <text x="30" y="250" font-family="Arial,sans-serif" font-size="20" fill="#c9f0d1">30 Sep 2026</text>
+</svg>

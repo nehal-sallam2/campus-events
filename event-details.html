@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event Details | Campus Events Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="theme-toggle">
+  <header>
+    <div class="container header-row">
+      <a class="brand" href="index.html">Campus Events Guide</a>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="event-details.html" class="active">Details</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="registration.html">Register</a></li>
+        </ul>
+      </nav>
+      <label for="theme-toggle" class="theme-btn">Dark mode</label>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>Tech Innovation Day 2026</h1>
+      <p class="meta">15 Nov 2026 | 12:00 PM - 8:00 PM | Zewail City, Main Hall</p>
+    </section>
+    <section class="split">
+      <img src="assets/images/poster.svg" alt="Tech Innovation Day 2026">
+      <article>
+        <h2>About</h2>
+        <p>A day of student projects, talks and industry guests.</p>
+        <h2>Tickets</h2>
+        <p>Free for students with a university ID. Guests pay 50 EGP.</p>
+        <a class="btn" href="registration.html">Register now</a>
+      </article>
+    </section>
+    <section>
+      <h2>Agenda</h2>
+      <ol>
+        <li>12:00 PM - Opening</li>
+        <li>1:00 PM - Keynote talk</li>
+        <li>3:00 PM - Project showcase</li>
+        <li>6:00 PM - Panel discussion</li>
+        <li>7:30 PM - Closing</li>
+      </ol>
+    </section>
+    <section>
+      <h2>Video</h2>
+      <video controls preload="metadata" width="640">
+        <source src="assets/media/promo.mp4" type="video/mp4">
+        <source src="assets/media/promo.webm" type="video/webm">
+        Video not supported.
+      </video>
+    </section>
+    <section>
+      <h2>Leave a review</h2>
+      <form>
+        <div>
+          <label for="rname">Your name</label>
+          <input type="text" id="rname" name="rname" required maxlength="40">
+        </div>
+        <div>
+          <label for="rtext">Your review</label>
+          <textarea id="rtext" name="rtext" rows="4" required maxlength="300"></textarea>
+        </div>
+        <div>
+          <label for="rfile">Upload a photo</label>
+          <input type="file" id="rfile" name="rfile" accept="image/*">
+        </div>
+        <button class="btn" type="submit">Send review</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <ul class="social">
+        <li><a href="https://facebook.com">Facebook</a></li>
+        <li><a href="https://instagram.com">Instagram</a></li>
+        <li><a href="https://linkedin.com">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

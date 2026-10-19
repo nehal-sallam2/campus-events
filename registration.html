@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration | Campus Events Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="theme-toggle">
+  <header>
+    <div class="container header-row">
+      <a class="brand" href="index.html">Campus Events Guide</a>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="event-details.html">Details</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="registration.html" class="active">Register</a></li>
+        </ul>
+      </nav>
+      <label for="theme-toggle" class="theme-btn">Dark mode</label>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>Register for Tech Innovation Day</h1>
+      <p class="meta">15 Nov 2026 | Zewail City, Main Hall</p>
+    </section>
+    <section>
+      <form>
+        <div>
+          <label for="name">Attendee name</label>
+          <input id="name" name="name" type="text" required maxlength="40" pattern="[A-Za-z ]{3,40}" title="Letters and spaces only, 3-40 characters">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div>
+          <label for="site">LinkedIn or portfolio link (optional)</label>
+          <input id="site" name="site" type="url">
+        </div>
+        <div>
+          <label for="guests">Number of guests (0-5)</label>
+          <input id="guests" name="guests" type="number" min="0" max="5" required>
+        </div>
+        <div>
+          <label for="interest">Interest level</label>
+          <input id="interest" name="interest" type="range" min="1" max="10" value="5">
+        </div>
+        <div>
+          <label for="day">Attendance date</label>
+          <input id="day" name="day" type="date" required min="2026-11-15" max="2026-11-15">
+        </div>
+        <div>
+          <label for="arrival">Arrival time</label>
+          <input id="arrival" name="arrival" type="time" required min="12:00" max="20:00">
+        </div>
+        <div>
+          <label for="badge">Badge color</label>
+          <input id="badge" name="badge" type="color" value="#2f4ac0">
+        </div>
+        <div>
+          <label for="idfile">Upload student ID</label>
+          <input id="idfile" name="idfile" type="file">
+        </div>
+        <div>
+          <label for="session">Event choice</label>
+          <select id="session" name="session" required>
+            <option value="">Choose a session</option>
+            <option>Keynote talk</option>
+            <option>Project showcase</option>
+            <option>Panel discussion</option>
+          </select>
+        </div>
+        <fieldset class="inline">
+          <legend>Ticket type</legend>
+          <input type="radio" id="student" name="ticket" checked>
+          <label for="student">Student</label>
+          <input type="radio" id="guest" name="ticket">
+          <label for="guest">Guest</label>
+        </fieldset>
+        <fieldset class="inline">
+          <legend>Access needs</legend>
+          <input type="checkbox" id="wheelchair" name="access">
+          <label for="wheelchair">Wheelchair access</label>
+          <input type="checkbox" id="interpreter" name="access">
+          <label for="interpreter">Sign interpreter</label>
+        </fieldset>
+        <div>
+          <label for="notes">Notes</label>
+          <textarea id="notes" name="notes" rows="4" maxlength="250"></textarea>
+        </div>
+        <button class="btn" type="submit">Submit registration</button>
+      </form>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: events@campus.edu</li>
+        <li>Phone: 0100 000 0000</li>
+        <li>Office: Student Affairs, Ground Floor</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <ul class="social">
+        <li><a href="https://facebook.com">Facebook</a></li>
+        <li><a href="https://instagram.com">Instagram</a></li>
+        <li><a href="https://linkedin.com">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#2f4ac0"/>
+  <rect x="250" y="40" width="100" height="100" rx="10" fill="#fff"/>
+  <rect x="272" y="62" width="56" height="56" rx="4" fill="#2f4ac0"/>
+  <path d="M250 70h-30M250 110h-30M350 70h30M350 110h30M280 40v-25M320 40v-25M280 140v25M320 140v25" stroke="#fff" stroke-width="5"/>
+  <text x="30" y="215" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#fff">Tech Innovation Day</text>
+  <text x="30" y="250" font-family="Arial,sans-serif" font-size="20" fill="#cfd8ff">15 Nov 2026</text>
+</svg>

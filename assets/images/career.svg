@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#c2410c"/>
+  <rect x="245" y="65" width="120" height="80" rx="8" fill="#fff"/>
+  <path d="M283 65v-12h44v12" stroke="#fff" stroke-width="8" fill="none"/>
+  <rect x="245" y="97" width="120" height="8" fill="#c2410c"/>
+  <rect x="297" y="91" width="16" height="20" rx="3" fill="#f08c00"/>
+  <text x="30" y="215" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#fff">Career Fair</text>
+  <text x="30" y="250" font-family="Arial,sans-serif" font-size="20" fill="#ffd8bf">28 Oct 2026</text>
+</svg>
